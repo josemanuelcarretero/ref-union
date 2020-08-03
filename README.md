@@ -1,8 +1,8 @@
-ref-union
+ref-union-napi
 =========
 ### Create ABI-compliant "[union][]" instances on top of Buffers
-[![Build Status](https://secure.travis-ci.org/TooTallNate/ref-union.svg)](https://travis-ci.org/TooTallNate/ref-union)
-[![Build Status](https://ci.appveyor.com/api/projects/status/9lrvbtyiyty9gptk?svg=true)](https://ci.appveyor.com/project/TooTallNate/ref-union)
+[![Build Status](https://secure.travis-ci.org/josemanuelcarretero/ref-union-napi.svg)](https://travis-ci.org/josemanuelcarretero/ref-union-napi)
+[![Build Status](https://ci.appveyor.com/api/projects/status/2otextcqhjs2kshg?svg=true)](https://ci.appveyor.com/project/josemanuelcarretero/ref-union-napi)
 
 
 
@@ -12,7 +12,7 @@ Installation
 Install with `npm`:
 
 ``` bash
-$ npm install ref-union
+$ npm install ref-union-napi
 ```
 
 
@@ -20,8 +20,8 @@ Examples
 --------
 
 ``` js
-var ref = require('ref')
-var Union = require('ref-union')
+var ref = require('ref-napi')
+var Union = require('ref-union-napi')
 
 // a couple typedefs
 var int = ref.types.int

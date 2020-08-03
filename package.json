@@ -1,6 +1,6 @@
 {
-  "name": "ref-union",
-  "description": "Create ABI-compliant \"union\" instances on top of Buffers",
+  "name": "ref-union-napi",
+  "description": "Create ABI-compliant \"union\" instances on top of Buffers. Supports Node 10, 12.",
   "keywords": [
     "union",
     "ref",
@@ -10,7 +10,7 @@
     "ffi"
   ],
   "version": "1.0.1",
-  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
+  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net) && Jose Manuel Carretero",
   "repository": {
     "type": "git",
     "url": "git://github.com/TooTallNate/ref-union.git"
@@ -25,9 +25,13 @@
     "ref-napi": "^1.4.2"
   },
   "devDependencies": {
-    "mocha": "^6.2.3",
+    "mocha": "*",
     "nan": "2",
     "ref-struct-napi": "^1",
-    "bindings": "^1.2.0"
+    "bindings": "1.2.0",
+
+    "nan": "2",
+    "mocha": "^6.2.3",
+    "ref-array-napi": "^1.2.1"
   }
 }
