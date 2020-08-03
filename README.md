@@ -2,7 +2,7 @@ ref-union-napi
 =========
 ### Create ABI-compliant "[union][]" instances on top of Buffers
 [![Build Status](https://secure.travis-ci.org/josemanuelcarretero/ref-union-napi.svg)](https://travis-ci.org/josemanuelcarretero/ref-union-napi)
-[![Build Status](https://ci.appveyor.com/api/projects/status/2otextcqhjs2kshg?svg=true)](https://ci.appveyor.com/project/josemanuelcarretero/ref-union-napi)
+[![Build Status](https://ci.appveyor.com/api/projects/status/github/josemanuelcarretero/ref-union-napi?svg=true)](https://ci.appveyor.com/project/josemanuelcarretero/ref-union-napi)
 
 
 
