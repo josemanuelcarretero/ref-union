@@ -58,7 +58,7 @@ typedef union _test8 {
 } test8;
 
 
-void Initialize(v8::Handle<v8::Object> target) {
+void Initialize(v8::Local<v8::Object> target) {
   Nan::HandleScope scope;
 
   Nan::Set(target, Nan::New<v8::String>("test1 sizeof").ToLocalChecked(), Nan::New<v8::Number>(sizeof(test1)));

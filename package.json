@@ -18,16 +18,16 @@
   "main": "./lib/union.js",
   "license": "MIT",
   "scripts": {
-    "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"
+    "test": "node-gyp rebuild --directory test && mocha --expose-gc --reporter spec"
   },
   "dependencies": {
     "debug": "2",
-    "ref": "1"
+    "ref-napi": "1"
   },
   "devDependencies": {
     "mocha": "*",
     "nan": "2",
-    "ref-struct": "1",
+    "ref-struct-napi": "1",
     "bindings": "1"
   }
 }
