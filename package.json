@@ -9,11 +9,11 @@
     "c++",
     "ffi"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net) && Jose Manuel Carretero",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/ref-union.git"
+    "url": "git://github.com/josemanuelcarretero/ref-union-napi.git"
   },
   "main": "./lib/union.js",
   "license": "MIT",
@@ -25,11 +25,8 @@
     "ref-napi": "^1.4.2"
   },
   "devDependencies": {
-    "mocha": "*",
-    "nan": "2",
     "ref-struct-napi": "^1",
     "bindings": "1.2.0",
-
     "nan": "2",
     "mocha": "^6.2.3",
     "ref-array-napi": "^1.2.1"
